@@ -1,0 +1,15 @@
+public class create {
+    
+    public static void createContact() {
+        Contact newContact = new Contact(
+            FirstName = 'John',
+            LastName = 'Doe',
+            Email = 'john.doe@example.com'
+        );
+        insert newContact;
+        System.debug('Contact created with ID: ' + newContact.Id);
+    }
+}
+
+
+Run: create.createContact();

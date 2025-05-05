@@ -1,0 +1,11 @@
+public class BasicMath {
+    
+    public static void addNumbers() {
+        Integer a = 5;
+        Integer b = 10;
+        Integer sum = a + b;
+        System.debug('The sum of ' + a + ' and ' + b + ' is: ' + sum);
+    }
+}
+
+Run: BasicMath.addNumbers();
